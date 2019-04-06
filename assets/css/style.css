@@ -1,0 +1,13 @@
+body {
+    background-color: cyan;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    text-align: center
+}
+
+.row {
+    background-color: cyan;
+}
