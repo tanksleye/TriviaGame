@@ -14,42 +14,51 @@
 <body>
 
 
-        <div class="container">
-                <div class="row align-items-start">
-                  <div class="col">
-                    One of three columns
-                  </div>
-                  <div class="col">
-                    One of three columns
-                  </div>
-                  <div class="col">
-                    One of three columns
-                  </div>
-                </div>
-                <div class="row align-items-center">
-                  <div class="col">
-                    One of three columns
-                  </div>
-                  <div class="col">
-                    One of three columns
-                  </div>
-                  <div class="col">
-                    One of three columns
-                  </div>
-                </div>
-                <div class="row align-items-end">
-                  <div class="col">
-                    One of three columns
-                  </div>
-                  <div class="col">
-                    One of three columns
-                  </div>
-                  <div class="col">
-                    One of three columns
-                  </div>
-                </div>
-              </div>
+      
 
+        <span class="border border-secondary">
+            <div class="container p-5 border">
+            <div class="row align-items-start">
+                <div class="col">
+                    <h1>Trivia Game!!</h1>
+                </div>
+            </div>
+
+            <div class="row align-items-center">
+                <div class="col">
+                    <h2>Trivia Game!!</h2>
+                </div>
+            </div>
+            <body>
+                    <!-------------- WELCOME SCREEN --------------->
+                  <div class='screen' id='welcome-screen'>
+                      <h1>Disney Pixar</h1>
+                      <h4>Let's see what you know!</h4>
+                      <button class="start-btn">Start</button>
+                  </div>
+                    <!-------------- QUESTION SCREEN --------------->
+                  <div class='screen' id='question-screen'>
+                    <h4 id="category">Category Name</h4>
+                    <div id="display">Time left: </div>
+                    <h1 id="question">Question goes here?</h1>
+                    <div id="answer-set">
+                      <button class="answer-btn" id="correctAnswer">Correct Answer</button>
+                      <button class="answer-btn" id="incorrectAnswer1">Wrong Answer</button>
+                      <button class="answer-btn" id="incorrectAnswer2">Wrong Answer</button>
+                      <button class="answer-btn" id="incorrectAnswer3">Wrong Answer</button>
+                       </div>
+                    <h1 id="feedback">Feedback will go here.</h1>
+                  </div>
+                    <!-------------- THANK YOU SCREEN --------------->
+                  <div class='screen' id='thankyou-screen'>
+                    <h1>Thank you for playing.</h1>
+                    <h4 id='game-results'>.</h4>
+                    <button class="start-btn">Restart</button>
+                  </div>
+        </div>
+        
+    </span> 
+    
 
      
 
